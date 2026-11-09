@@ -1,0 +1,116 @@
+* {
+    box-sizing: border-box
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f2f5f9;
+    color: #243247;
+    margin: 0;
+    padding: 32px 16px
+}
+
+main {
+    max-width: 650px;
+    margin: 30px auto;
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 5px 24px #20344c18
+}
+
+h1 {
+    color: #183b64
+}
+
+label {
+    display: block;
+    margin: 16px 0 7px;
+    font-weight: bold
+}
+
+input {
+    width: 100%;
+    padding: 11px;
+    border: 1px solid #bdcad9;
+    border-radius: 6px;
+    font: inherit
+}
+
+button,
+.link {
+    display: inline-block;
+    background: #1758a6;
+    color: white;
+    border: 0;
+    border-radius: 6px;
+    padding: 11px 16px;
+    margin-top: 16px;
+    cursor: pointer;
+    text-decoration: none;
+    font: inherit
+}
+
+button:hover,
+.link:hover {
+    background: #123f78
+}
+
+.volver {
+    display: inline-block;
+    margin-bottom: 12px;
+    color: #1758a6;
+    text-decoration: none
+}
+
+.resultado {
+    margin-top: 20px;
+    line-height: 1.8
+}
+
+.error {
+    color: #b42318
+}
+
+.bien {
+    color: #147d47
+}
+
+.tarjeta {
+    background: #f2f5f9;
+    border-radius: 8px;
+    padding: 12px;
+    margin-top: 10px
+}
+
+ul {
+    padding-left: 0;
+    list-style: none
+}
+
+li {
+    padding: 12px;
+    border-bottom: 1px solid #dce3eb;
+    display: flex;
+    align-items: center;
+    gap: 10px
+}
+
+li input {
+    width: auto
+}
+
+.completada {
+    text-decoration: line-through;
+    color: #798494
+}
+
+.eliminar {
+    margin: 0 0 0 auto;
+    background: #b42318;
+    padding: 7px 11px
+}
+
+.eliminar:hover {
+    background: #871c14
+}
